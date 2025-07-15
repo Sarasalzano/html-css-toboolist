@@ -68,7 +68,6 @@ button {
 }
 
 
-/* sezione lista task */
 
 ul {
     list-style-type: none;
@@ -90,8 +89,8 @@ li {
     padding: 20px 0px;
 }
 
-/* sezione simboli lista */
 
+/* sezione simboli lista */
 .check {
     font-size: 14px;
     color: #82C8B3;
@@ -110,4 +109,38 @@ li {
     text-align: center;
     border: 1px solid red;
     border-radius: 50%;
+}
+
+/* sezione riquadri colorati */
+
+.roundshape-whitefont {
+    font-size: 10px;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+.blue {
+    background-color: #48ACEA;
+}
+
+.purple {
+    background-color: #9F76D5;
+}
+
+.green {
+    background-color: #68C0A8;
+}
+
+.orange {
+    background-color: #F5A32D;
+}
+
+.pink {
+    background-color: #D5679E;
+}
+
+.lightgreen {
+    background-color: #B0CA2A;
 }
