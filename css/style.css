@@ -76,7 +76,7 @@ ul {
 }
 
 li {
-    padding: 10px;
+    padding: 10px 0px;
 }
 
  #bold-text {
@@ -87,5 +87,27 @@ li {
 
 .normal-font-weight {
     font-weight: normal;
-    padding: 20px;
+    padding: 20px 0px;
+}
+
+/* sezione simboli lista */
+
+.check {
+    font-size: 14px;
+    color: #82C8B3;
+    display: inline-block;
+    width: 20.8px;
+    text-align: center;
+    border: 1px solid #82C8B3;
+    border-radius: 50%;
+}
+
+.cross {
+    font-size: 14px;
+    color: red;
+    display: inline-block;
+    width: 20.8px;
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 50%;
 }
